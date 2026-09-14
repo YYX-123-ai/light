@@ -1,0 +1,42 @@
+# ---- 通用编译产物 ----
+*.o
+*.d
+*.crf
+*.iex
+*.lnp
+*.htm
+*.dep
+*.bak
+*.tra
+*.plg
+*.log
+*.map
+*.lst
+*.sct
+*.hex
+*.bin
+*.axf
+*.elf
+
+# ---- Keil MDK-ARM ----
+MDK-ARM/Listings/
+MDK-ARM/Objects/
+MDK-ARM/RTE/_*/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+MDK-ARM/*.scvd
+MDK-ARM/JLinkLog.txt
+MDK-ARM/DebugConfig/
+
+# ---- IAR EWARM ----
+EWARM/Debug/
+EWARM/Release/
+EWARM/settings/
+EWARM/*.ewt
+EWARM/*.ewd
+EWARM/*.ewp
+EWARM/*.eww
+EWARM/*.out
+
+# ---- 其他 ----
+*.launches
